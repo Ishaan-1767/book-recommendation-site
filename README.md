@@ -7,7 +7,7 @@ This is a **Book Recommendation Website** where users can explore books by genre
 
 ## 🛠️ Features  
 - 📖 Browse books by genre  
-- 🔍 Search functionality (if implemented)  
+- 🔍 Search functionality  
 - 📑 Detailed book pages with descriptions  
 - 🛒 "Buy Now" option for books  
 
