@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendation Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="fiction.html">📚 Fiction</a></li>
+            <li><a href="nonfiction.html">📖 Non-Fiction</a></li>
+            <li><a href="mystery.html">🕵️ Mystery</a></li>
+            <li><a href="scifi.html">🚀 Sci-Fi</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="typing-effect">Welcome to Book Recommendation Site</h1>
+        </div>
+        
+        <form id="searchForm" class="search-bar">
+            <input id="searchInput" type="text" placeholder="Search for books...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <div id="searchResults" class="search-results"></div>
+        
+        <p>Your perfect book is just a click away. Explore top genres and find your next read.</p>
+    </header>
+
+    <!-- Book of the Month Section -->
+    <section class="book-of-the-month">
+        <h2 class>Book of the Month</h2>
+        <a href="fbook6.html" class="book-of-the-month-card">
+            <img src="images/book-of-the-month.jpg" alt="The Alchemist">
+            <div class="book-details">
+                <h3>The Alchemist</h3>
+                <p>The Alchemist is a story of following one's dreams to find one's purpose in life.</p>
+            </div>
+        </a>
+    </section>
+
+    <!-- Featured Genres -->
+    <section class="genre-section">
+        <h2>Explore Our Genres</h2>
+        <div class="genre-grid">
+            <a href="fiction.html" class="genre-card">
+                <img src="images/fiction.jpg" alt="Fiction">
+                <h3>Fiction</h3>
+            </a>
+            <a href="nonfiction.html" class="genre-card">
+                <img src="images/nonfiction.webp" alt="Non-Fiction">
+                <h3>Non-Fiction</h3>
+            </a>
+            <a href="mystery.html" class="genre-card">
+                <img src="images/mystery.jpg" alt="Mystery">
+                <h3>Mystery</h3>
+            </a>
+            <a href="scifi.html" class="genre-card">
+                <img src="images/sci-fi.png" alt="Sci-Fi">
+                <h3>Sci-Fi</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Book Recommendation Site | Created by Ishaan Singh</p>
+        <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+    
+
+    <!-- Scroll to Top Button -->
+<button id="scrollTopBtn" title="Go to top">⬆️</button>
+
+</body>
+</html>
